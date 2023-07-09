@@ -77,4 +77,5 @@ h2 {
 .grid{
     display: grid;
     grid-template-columns: 100px 300px;
+    grid-gap: 10px;
 }
