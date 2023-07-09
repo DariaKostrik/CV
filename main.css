@@ -1,14 +1,13 @@
 .name{
 font-family: 'Times New Roman', Times, serif;
-font-size: larger;
-font-weight: 300;
+font-size: large;
 }
 .full-page
 {
     display: flex;
 }
 .personal-information {
-   background-color: rgba(2, 2, 58, 0.34);
+   background-color: rgba(2, 2, 58, 0.734);
    width: 200px;
    height: 1000px;
 }
@@ -19,8 +18,25 @@ font-weight: 300;
 }
 #photo {
     object-fit: cover;
-    position:relative; top:25px; left: 25px; right: 25px;
+    position:relative; top:25px; left: 25px; right: 25px; bottom: 500px;
     width: 150px;
     height:auto;
     border-radius: 100px;
+}
+#line-for-dark{
+    width: 25px;
+    height: 2px;
+    background-color: beige;
+}
+#line-for-lignt{
+    width: 25px;
+    height: 2px;
+    background-color: rgb(14, 14, 85);
+}
+.text-for-dark{
+    color:beige;
+}
+
+.all-text{
+    font-family: 'Times New Roman', Times, serif;
 }
