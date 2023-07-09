@@ -8,13 +8,13 @@ font-family: 'Times New Roman', Times, serif;
 .personal-information {
    background-color: rgba(2, 2, 58, 0.734);
    width: 200px;
-   height: 1000px;
+   height: 1300px;
 
 }
 .main-information {
     background-color: rgba(8, 8, 8, 0.251);
     width: 500px;
-    height: 1000px;
+    height: 1300px;
     border-left: 40px;
 }
 .main-container-for-personal{
