@@ -79,3 +79,8 @@ h2 {
     grid-template-columns: 100px 300px;
     grid-gap: 10px;
 }
+.grid-for-skills{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-gap: 10px;   
+}
