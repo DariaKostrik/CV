@@ -10,11 +10,16 @@ font-size: large;
    background-color: rgba(2, 2, 58, 0.734);
    width: 200px;
    height: 1000px;
+
 }
 .main-information {
     background-color: rgba(8, 8, 8, 0.251);
     width: 500px;
     height: 1000px;
+}
+.main-container-for-personal{
+    display: flex;
+    flex-direction: column;
 }
 #photo {
     object-fit: cover;
@@ -22,11 +27,13 @@ font-size: large;
     width: 150px;
     height:auto;
     border-radius: 100px;
+    margin-bottom: 70px;
 }
 #line-for-dark{
     width: 25px;
     height: 2px;
     background-color: beige;
+    margin-bottom: 30px;
 }
 #line-for-lignt{
     width: 25px;
@@ -36,7 +43,27 @@ font-size: large;
 .text-for-dark{
     color:beige;
 }
-
 .all-text{
     font-family: 'Times New Roman', Times, serif;
+}
+.round{
+    width: 15px;
+    height: 15px;;
+    border-radius: 100px;
+    background-color: rgb(37, 32, 70);
+}
+#light-background-for-element
+{
+    background-color: rgba(157, 152, 189, 0.932);
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+.add-margin{
+    margin-left: 20px;
+    margin-right: 7px;
+}
+h2 {
+    margin-top: 50px;
 }
