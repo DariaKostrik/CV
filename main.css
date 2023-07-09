@@ -3,3 +3,24 @@ font-family: 'Times New Roman', Times, serif;
 font-size: larger;
 font-weight: 300;
 }
+.full-page
+{
+    display: flex;
+}
+.personal-information {
+   background-color: rgba(2, 2, 58, 0.34);
+   width: 200px;
+   height: 1000px;
+}
+.main-information {
+    background-color: rgba(8, 8, 8, 0.251);
+    width: 500px;
+    height: 1000px;
+}
+#photo {
+    object-fit: cover;
+    position:relative; top:25px; left: 25px; right: 25px;
+    width: 150px;
+    height:auto;
+    border-radius: 100px;
+}
